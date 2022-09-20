@@ -26,7 +26,6 @@ export default {
       "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false&price_change_percentage=1h%2C24h%2C7d"
     );
     const data = await res.json();
-    // console.log(data);
     this.coins = data;
     this.filteredCoin = data;
   },
@@ -43,9 +42,6 @@ export default {
       );
     },
     showModalCripto(id) {
-      // this.openModal = true;
-      // console.log("hello");
-      // console.log(this.openModal);
       this.$refs.modal.openModal(id);
     },
   },
@@ -118,24 +114,6 @@ export default {
             {{ coin.price_change_percentage_24h.toFixed(1) }}%
           </td>
           <td>${{ coin.total_volume.toLocaleString() }}</td>
-          <!-- <td
-            :class="[
-              coin.price_change_percentage_1h_in_currency > 0
-                ? 'text-green-500'
-                : 'text-red-500',
-            ]"
-          >
-            {{ coin.price_change_percentage_1h_in_currency.toFixed(1) }}%
-          </td> -->
-          <!-- <td
-            :class="[
-              coin.price_change_percentage_24h_in_currency > 0
-                ? 'text-green-500'
-                : 'text-red-500',
-            ]"
-          >
-            {{ coin.price_change_percentage_24h_in_currency.toFixed(1) }}%
-          </td> -->
           <td
             :class="[
               coin.price_change_percentage_7d_in_currency > 0
