@@ -1,14 +1,24 @@
 # criptoSearch
 
-This template should help get you started developing with Vue 3 in Vite.
+Aplicasion realizada en vue.js 3 con composition api
 
-## Recommended IDE Setup
+![Home](https://github.com/LuisGRR/CriptoSearch/blob/main/public/Screenshots/CriptoSearch1.png)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Screenshot
 
-## Customize configuration
+[Screenshots](https://github.com/LuisGRR/CriptoSearch/tree/main/public/Screenshots)
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Tecnologias utilizadas
+
+* [tailwindcss](https://tailwindcss.com/)
+* [VueJS](https://vuejs.org/)
+* [vueuse](https://vueuse.org/)
+
+## Glonar proyecto
+
+```git
+git clone https://github.com/LuisGRR/CriptoSearch.git
+```
 
 ## Project Setup
 
@@ -26,10 +36,4 @@ npm run dev
 
 ```sh
 npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
 ```

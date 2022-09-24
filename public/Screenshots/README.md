@@ -2,8 +2,8 @@
 
 ## Screenshot "Home"
 
-![Home](www.google.com/)
+![Home](https://github.com/LuisGRR/CriptoSearch/blob/main/public/Screenshots/CriptoSearch1.png)
 
 ## Screenshot "Modal"
 
-![Home](www.google.com/)
+![Home](https://github.com/LuisGRR/CriptoSearch/blob/main/public/Screenshots/CriptoSearch2.png)
